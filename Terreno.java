@@ -1,6 +1,6 @@
 
 
-public class Terreno
+public abstract class Terreno
 {
     protected int estrato;
     protected double area;
@@ -45,9 +45,5 @@ public class Terreno
 
     }
     
-    double calcularArea()
-    {
-        return this.area;
-    }
-
-}
+    abstract double calcularArea();
+ }
